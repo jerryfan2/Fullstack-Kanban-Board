@@ -1,0 +1,146 @@
+.lightbox-container {
+    position: fixed;
+    width: 350px;
+    height: 375px;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+    box-shadow: 0 0 0 99999px rgba(0, 0, 0, .5);
+    padding: 30px;
+    z-index: 200;
+}
+
+.lightbox-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lightbox-header img {
+    height: 36px;
+    cursor: pointer;
+}
+
+
+.lightbox-title {
+    margin-top: 0;
+    font-size: 28px;
+}
+
+.lightbox-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(128,128,128,0.5);
+    z-index: 150;
+}
+
+.priority-form {
+    display: inline-block;
+    margin-left: 8px;
+    margin-right: 50px;
+}
+
+.priority-label, #priority, .desc-label, .desc-input {
+    display: block;
+}
+
+.priority-label, .desc-label {
+    margin-bottom: 6px;
+    font-size: 20px;
+}
+
+#priority, #desc-input {
+    font-size: 16px;
+}
+
+#priority {
+    background-color: rgb(98, 203, 230);
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    font-family: Roboto, Arial;
+}
+
+#desc-input {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    width: 90%;
+    height: 160px;
+    font-family: Roboto, Arial;
+    padding: 8px;
+}
+
+.create-todo-button {
+    font-family: Roboto, Arial;
+    font-size: 15px;
+    background-color: rgb(98, 203, 230);
+    border: none;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .lightbox-container {
+        width: 270px;
+        height: 140px;
+        border-radius: 30px;
+        padding: 20px;
+    }
+
+    .lightbox-title {
+        font-size: 14px;
+    }
+
+    .lightbox-header {
+        height: 20px;
+    }
+
+    .lightbox-header img {
+        height: 18px;
+    }
+
+    .priority-form {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .priority-label {
+        font-size: 14px;
+    }
+
+    #priority {
+        font-size: 12px;
+        padding: 2px 5px;
+        margin-bottom: 4px;
+    }
+
+    .desc-label {
+        font-size: 14px;
+        margin-bottom: 3px;
+    }
+
+    #desc-input {
+        height: 30px;
+        width: 90%;
+    }
+
+    .create-todo-button {
+        font-size: 12px;
+    }
+}

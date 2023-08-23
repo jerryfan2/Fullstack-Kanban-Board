@@ -1,0 +1,2 @@
+# GraphQL-Crud-ToDo-App
+A Simple CRUD API for users to create, read, update, and delete to-do list items. This app was built using node.js and express.js, as well as GraphQL for data querying. A database connection has not been configured; mock JSON data is used instead. The app specifies that only the owner of a to-do list item can update or delete an item, so when attemping to update or delete an item, the owner variable must be provided in the query variables.

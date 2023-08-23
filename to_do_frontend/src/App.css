@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    font-family: Roboto, Arial;
+    margin-top: 80px;
+    background-color: rgb(237, 237, 237);
+}
+
+.body-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    position: relative;
+    margin-left: 30px;
+    margin-right: 30px;
+}

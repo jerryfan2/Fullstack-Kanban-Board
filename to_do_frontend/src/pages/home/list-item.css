@@ -1,0 +1,33 @@
+.itemContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    margin-bottom: 20px;
+    width: 183px;
+}
+
+.itemContainer img {
+    height: 20px;
+}
+
+.toDoDesc {
+    font-size: 14px;
+    width: 120px;
+    line-height: 22px;
+}
+
+.toDoOwner {
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.toDoPriority {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+
+.itemIcons {
+    cursor: pointer;
+}

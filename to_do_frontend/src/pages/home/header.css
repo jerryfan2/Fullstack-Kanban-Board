@@ -1,0 +1,78 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(98, 203, 230);
+    
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 15px grey;
+
+    z-index: 100;
+}
+
+.left-header {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.welcome-texts {
+    margin-left: 12px;
+    font-weight: bold;
+}
+
+.greeting-text {
+    font-size: 10px;
+}
+
+.name-text {
+    font-size: 16px;
+}
+
+.pfp-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.socials-section {
+    width: 90px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.right-header {
+    display: flex;
+    align-items: center;
+}
+
+.right-header img {
+    height: 20px;
+}
+
+.login-signup-section {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.login-signup-section button {
+    border: none;
+    border-radius: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: rgb(55, 162, 224);
+    color: white;
+    font-family: Roboto, Arial;
+    cursor: pointer;
+}
