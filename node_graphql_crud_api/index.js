@@ -46,7 +46,7 @@ app.use((req, res, next) => {
     next();
 })
 
-await mongoose.connect('mongodb://127.0.0.1:27017/toDoMernDB');
+await mongoose.connect('mongodb://mongodb:27017/toDoMernDB');
 
 const schema = new GraphQLSchema({query: RootQuery, mutation: Mutation});
 

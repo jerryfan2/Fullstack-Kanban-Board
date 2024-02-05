@@ -1,0 +1,15 @@
+FROM node:18
+
+WORKDIR /app
+
+COPY package*.json ./
+
+RUN yarn install
+
+COPY . .
+
+RUN yarn vite build
+
+EXPOSE 5173
+
+CMD ["yarn", "run", "dev"]

@@ -6,7 +6,7 @@ import OrekiPFP from "../../assets/oreki_pfp.jpg";
 
 import instagramIcon from "../../assets/instagram.svg";
 import facebookIcon from "../../assets/facebook.svg";
-import linkedInIcon from "../../assets/linkedIn.svg";
+import linkedInIcon from "../../assets/linkedin.svg";
 import githubIcon from "../../assets/github.svg";
 
 import { UserContext } from "../../App.jsx";

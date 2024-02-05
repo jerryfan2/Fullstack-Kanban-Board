@@ -52,7 +52,7 @@ const deleteToDo = {
         id: { type: new GraphQLNonNull(GraphQLID) }
     },
     async resolve(parent, args) {
-        const toDelete = await toDoModel.findByIdAndRemove(args.id);
+        const toDelete = await toDoModel.findByIdAndDelete(args.id);
         return toDelete;
     }
 };
